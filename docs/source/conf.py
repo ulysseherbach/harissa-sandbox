@@ -3,7 +3,7 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-import re 
+import re
 import sys
 import sysconfig
 from importlib.metadata import version as get_version, PackageNotFoundError
@@ -27,11 +27,11 @@ logger = sphinx.util.logging.getLogger(__name__)
 # [N!]N(.N)*[{a|b|rc}N][.postN][.devN]
 PYPI_VERSION_PATTERN=r'(\d+!)?\d+(\.\d+)*((a|b|rc)\d+)?(\.post\d+)?(\.dev\d+)?'
 pattern = re.compile(f'^v{PYPI_VERSION_PATTERN}$')
-switcher_filename = 'switcher.json' 
-conf_dir = Path(__file__).parent 
+switcher_filename = 'switcher.json'
+conf_dir = Path(__file__).parent
 with open(conf_dir / switcher_filename) as fp:
     switcher_data = list(filter(
-        lambda data: re.match(pattern, data['version']), 
+        lambda data: re.match(pattern, data['version']),
         json.load(fp)
     ))
 
@@ -145,7 +145,7 @@ if (conf_dir.parent.parent / '.git').is_dir():
 else:
     current_branch = 'main'
 
-module_name = 'harissa'
+module_name = 'harissa-sandbox'
 try:
     current_branch_version = f'v{get_version(module_name)}'
 except PackageNotFoundError:
@@ -197,7 +197,7 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_baseurl = f'https://harissa-framework.github.io/{module_name}/'
+html_baseurl = f'https://ulysseherbach.github.io/{module_name}/'
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
 html_css_files = ['custom.css']
@@ -205,7 +205,7 @@ html_theme_options = {
     'icon_links': [
         {
             'name': 'GitHub',
-            'url': f'https://github.com/harissa-framework/{module_name}',
+            'url': f'https://ulysseherbach.github.io/{module_name}',
             'icon': 'fa-brands fa-github',
             'type': 'fontawesome',
         }
@@ -271,12 +271,12 @@ def setup_collections(app, config):
     # -- Options for sphinx collections output -------------------------------
     # https://sphinx-collections.readthedocs.io/en/latest/
     config.collections = {
-        'notebooks' : {
+        'notebooks': {
             'driver': 'copy_folder_only',
             'source': str(doc_src_dir.parent.parent / 'notebooks'),
             'only': ['*.ipynb'],
         },
-        'benchmark' : {
+        'benchmark': {
             'driver': 'copy_folder_only',
             'source': str(doc_src_dir.parent.parent / 'benchmark' / 'notebooks'),
             'only': ['*.ipynb'],
