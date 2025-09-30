@@ -343,11 +343,11 @@ def setup_multi_version(app, config):
         config.html_theme_options = {
             **config.html_theme_options,
             'switcher': {
-                'json_url' : switcher_filename,
+                'json_url': switcher_filename,
                 'version_match': current_semver
             },
             'show_version_warning_banner': True,
-            'navbar_start' : ['navbar-logo', 'version-switcher'],
+            'navbar_start': ['navbar-logo', 'version-switcher'],
             # 'navbar_align': 'left',
             # 'navbar_center': ['version-switcher', 'navbar-nav'],
             # 'navbar_end' : ['theme-switcher','navbar-icon-links', 'version-switcher']
@@ -362,11 +362,11 @@ def setup_multi_version(app, config):
                 'version': to_sem_ver(data_version[1:])
             }
             if data.get('preferred', False):
-                new_data['url'] = f'/{module_name}/stable/'
+                new_data['url'] = '/harissa-sandbox/stable/'
                 new_data['preferred'] = True
                 stable_version.append(data_version)
             else:
-                new_data['url'] = f'/{module_name}/{data_version}/'
+                new_data['url'] = f'/harissa-sandbox/{data_version}/'
             new_switcher_data.append(new_data)
 
         if len(stable_version) == 0 or len(stable_version) > 1:
@@ -379,13 +379,13 @@ def setup_multi_version(app, config):
         config.version = Path(app.outdir).name
         config.release = current_semver
 
-        config.sitemap_url_scheme = "{version}{link}"
+        config.sitemap_url_scheme = '{version}{link}'
 
         if current_branch:
             current_branch_data = {
-                'name': current_branch_version, 
+                'name': current_branch_version,
                 'version': current_branch_semver,
-                'url': f'/{module_name}/latest/'
+                'url': '/harissa-sandbox/latest/'
             }
 
             new_switcher_data = [current_branch_data] + new_switcher_data
@@ -448,7 +448,7 @@ def clean_up(app, exception):
 def update_json_url(app, pagename, templatename, context, doctree):
     if app.config.smv_current_version:
         context['theme_switcher']['json_url'] = (
-            f'/{module_name}/{switcher_filename}'
+            f'/harissa-sandbox/{switcher_filename}'
         )
 
 def setup(app):
