@@ -145,7 +145,7 @@ if (conf_dir.parent.parent / '.git').is_dir():
 else:
     current_branch = 'main'
 
-module_name = 'harissa-sandbox'
+module_name = 'harissa'
 try:
     current_branch_version = f'v{get_version(module_name)}'
 except PackageNotFoundError:
@@ -197,7 +197,7 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_baseurl = f'https://ulysseherbach.github.io/{module_name}/'
+html_baseurl = 'https://ulysseherbach.github.io/harissa-sandbox/'
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
 html_css_files = ['custom.css']
@@ -205,7 +205,7 @@ html_theme_options = {
     'icon_links': [
         {
             'name': 'GitHub',
-            'url': f'https://ulysseherbach.github.io/{module_name}',
+            'url': 'https://ulysseherbach.github.io/harissa-sandbox',
             'icon': 'fa-brands fa-github',
             'type': 'fontawesome',
         }
