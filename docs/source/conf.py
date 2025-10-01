@@ -346,13 +346,13 @@ def setup_multi_version(app, config):
                 'json_url': switcher_filename,
                 'version_match': current_semver
             },
-            'show_version_warning_banner': True,
+            # 'show_version_warning_banner': True,
             'navbar_start': ['navbar-logo', 'version-switcher'],
             # 'navbar_align': 'left',
             # 'navbar_center': ['version-switcher', 'navbar-nav'],
             # 'navbar_end' : ['theme-switcher','navbar-icon-links', 'version-switcher']
         }
-        
+
         stable_version = []
         new_switcher_data = []
         for data in switcher_data:
