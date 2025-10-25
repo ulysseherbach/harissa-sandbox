@@ -33,7 +33,7 @@ $ pip install harissa==4.0.0a3
 ```
 
 This command will also check for all required dependencies (see below) and install them if necessary.
-If the installation is successful, all scripts in the [examples](https://github.com/ulysseherbach/harissa-sandbox/tree/main/examples) folder should run smoothly (note that :code:`network4.py` must be run before :code:`test_binarize.py`).
+If the installation is successful, all scripts in the [examples](https://github.com/ulysseherbach/harissa-sandbox/tree/main/examples) folder should run smoothly (note that `network4.py` must be run before `test_binarize.py`).
 
 ## Basic usage
 
