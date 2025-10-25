@@ -8,7 +8,7 @@ hidden:
 quickstart/index
 api/index
 notebooks/index
-CLI <cli/index>
+cli/index
 Benchmark <benchmark/index>
 :::
 
