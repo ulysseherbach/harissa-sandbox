@@ -1,6 +1,5 @@
 # Harissa Benchmark
 
-
 :::{if-collection} benchmark
 :::{toctree}
 ---
@@ -11,7 +10,6 @@ benchmark
 register
 reports
 :::
-
 
 :::{include} ../../../benchmark/README.md
 :start-line: 2

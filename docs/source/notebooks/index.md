@@ -4,11 +4,10 @@
 :start-line: 2
 :::
 
+--
+
 :::{if-collection} notebooks
 :::{toctree}
----
-maxdepth: 1
----
 :glob:
 
 *

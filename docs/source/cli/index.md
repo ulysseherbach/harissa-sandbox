@@ -9,9 +9,9 @@ cmd
 help
 :::
 
-The harissa package provides a command-line interface (CLI).
+The Harissa package provides a command-line interface (CLI).
 Once the package is installed, a `harissa` program can be run from your terminal.
-It allows people to use the package main functionalities without having to code any python lines.
+It allows you to use the package main functionalities without having to code any python lines.
 Of course, you are welcome to use the [python API](../api/index.md) if the CLI doesn't satisfy your needs.
 
 The CLI provides 6 commands:

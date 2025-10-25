@@ -4,7 +4,6 @@
 ---
 maxdepth: 2
 hidden:
-includehidden:
 ---
 quickstart/index
 notebooks/index

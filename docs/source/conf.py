@@ -214,7 +214,7 @@ html_theme_options = {
    'pygments_dark_style': 'material',
 }
 html_sidebars = {
-  # "quickstart/index": []
+  "quickstart/index": []
 }
 html_copy_source = False
 
