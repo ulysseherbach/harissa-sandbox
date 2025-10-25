@@ -2,7 +2,7 @@
 
 :::{toctree}
 ---
-maxdepth: 1
+maxdepth: 2
 hidden:
 ---
 quickstart/index
@@ -12,12 +12,9 @@ CLI <cli/index>
 Benchmark <benchmark/index>
 :::
 
-----
-
 :::{include} ../../README.md
-:start-line: 26
+:start-line: 2
 :::
-
 
 ## Indices and tables
 
