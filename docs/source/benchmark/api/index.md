@@ -1,4 +1,4 @@
-# API documentation
+# Benchmark API
 
 ## Main module
 
