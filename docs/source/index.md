@@ -3,9 +3,8 @@
 :::{toctree}
 ---
 maxdepth: 1
+hidden:
 ---
-:hidden:
-
 quickstart/index
 api/index
 notebooks/index
