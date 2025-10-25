@@ -1,4 +1,4 @@
-# Harissa quickstart
+# Quickstart
 
 :::{include} ../../../README.md
 :start-line: 2

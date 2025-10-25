@@ -7,7 +7,7 @@
 [![GitHub Pages status](https://img.shields.io/github/actions/workflow/status/harissa-framework/harissa/github-pages.yml?label=documentation)](https://harissa-framework.github.io/harissa/)
 
 
-This is a Python package for both simulation and inference of gene regulatory networks from single-cell data. Its name comes from ‘HARtree approximation for Inference along with a Stochastic Simulation Algorithm.’
+Harissa is a Python package for both simulation and inference of gene regulatory networks from single-cell data. Its name comes from ‘HARtree approximation for Inference along with a Stochastic Simulation Algorithm.’
 It was implemented in the context of a [mechanistic approach](https://doi.org/10.1186/s12918-017-0487-0) to gene regulatory network inference from single-cell data, based upon an underlying stochastic dynamical model driven by the [transcriptional bursting](https://en.wikipedia.org/wiki/Transcriptional_bursting) phenomenon.
 
 *Main functionalities:*
@@ -29,11 +29,11 @@ They were both evaluated in a [recent benchmark](https://doi.org/10.1371/journal
 Harissa can be installed using [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/):
 
 ```console
-$ pip install harissa
+$ pip install harissa==4.0.0a3
 ```
 
 This command will also check for all required dependencies (see below) and install them if necessary.
-If the installation is successful, all scripts in the [tests](https://github.com/ulysseherbach/harissa/tree/main/tests) folder should run smoothly (note that :code:`network4.py` must be run before :code:`test_binarize.py`).
+If the installation is successful, all scripts in the [examples](https://github.com/ulysseherbach/harissa-sandbox/tree/main/examples) folder should run smoothly (note that :code:`network4.py` must be run before :code:`test_binarize.py`).
 
 ## Basic usage
 

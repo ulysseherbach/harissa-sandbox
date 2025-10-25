@@ -1,4 +1,5 @@
 # Harissa Benchmark
+
 Benchmark for Harissa's inference and simulation methods.
 
 ## Installation

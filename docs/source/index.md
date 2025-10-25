@@ -1,14 +1,12 @@
-# Welcome to Harissa docs
-
-% harissa documentation master file, created by sphinx-quickstart on Wed Oct 25 10:13:37 2023.
-% You can adapt this file completely to your liking, but it should at least contain the root `toctree` directive.
+# Welcome to Harissa docs 🌶
 
 :::{toctree}
 ---
 maxdepth: 1
-caption: "Contents:"    
 ---
-Quickstart <quickstart/index>
+:hidden:
+
+quickstart/index
 api/index
 notebooks/index
 CLI <cli/index>
@@ -18,7 +16,7 @@ Benchmark <benchmark/index>
 ----
 
 :::{include} ../../README.md
-:start-line: 2
+:start-line: 26
 :::
 
 

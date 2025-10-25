@@ -205,7 +205,7 @@ html_theme_options = {
     'icon_links': [
         {
             'name': 'GitHub',
-            'url': 'https://ulysseherbach.github.io/harissa-sandbox',
+            'url': 'https://github.com/ulysseherbach/harissa-sandbox',
             'icon': 'fa-brands fa-github',
             'type': 'fontawesome',
         }
