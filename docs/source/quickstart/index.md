@@ -4,11 +4,12 @@
 ---
 maxdepth: 2
 hidden:
+includehidden:
 ---
 quickstart/index
-api/index
 notebooks/index
-cli/index
+api/index
+CLI <cli/index>
 Benchmark <benchmark/index>
 :::
 
