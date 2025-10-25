@@ -3,7 +3,7 @@
 [![PyPI - Version](https://img.shields.io/pypi/v/harissa)](https://pypi.org/project/harissa/)
 [![Conda - Version](https://img.shields.io/conda/vn/conda-forge/harissa)](https://anaconda.org/conda-forge/harissa)
 [![CI Status](https://img.shields.io/github/actions/workflow/status/harissa-framework/harissa/ci.yml?label=CI)](https://github.com/harissa-framework/harissa/actions/workflows/ci.yml)
-[![Coveralls](https://img.shields.io/coverallsCoverage/github/harissa-framework/harissa)](https://coveralls.io/github/harissa-framework/harissa?branch=main)
+[![Coveralls](https://img.shields.io/coverallsCoverage/github/ulysseherbach/harissa-sandbox)](https://coveralls.io/github/ulysseherbach/harissa-sandbox?branch=main)
 [![GitHub Pages status](https://img.shields.io/github/actions/workflow/status/harissa-framework/harissa/github-pages.yml?label=documentation)](https://harissa-framework.github.io/harissa/)
 
 
