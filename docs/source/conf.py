@@ -14,8 +14,8 @@ import venv
 import subprocess
 import shlex
 
-from sphinxcontrib.collections.drivers import Driver
-from sphinxcontrib.collections.api import register_driver
+from sphinx_collections.drivers import Driver
+from sphinx_collections.api import register_driver
 
 import sphinx
 
@@ -459,7 +459,7 @@ def setup(app):
 
         register_driver('copy_folder_only', CopyFolderOnly)
         app.connect('config-inited', setup_collections)
-        app.setup_extension('sphinxcontrib.collections')
+        app.setup_extension('sphinx_collections')
         app.connect('config-inited', reset_conf_dir(conf_dir))
         app.setup_extension('myst_nb')
         app.setup_extension('sphinxcontrib.mermaid')
