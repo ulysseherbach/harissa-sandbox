@@ -2,9 +2,9 @@
 
 [![PyPI - Version](https://img.shields.io/pypi/v/harissa)](https://pypi.org/project/harissa/)
 [![Conda - Version](https://img.shields.io/conda/vn/conda-forge/harissa)](https://anaconda.org/conda-forge/harissa)
-[![CI Status](https://img.shields.io/github/actions/workflow/status/harissa-framework/harissa/ci.yml?label=CI)](https://github.com/harissa-framework/harissa/actions/workflows/ci.yml)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/ulysseherbach/harissa-sandbox/ci.yml?label=CI)](https://github.com/ulysseherbach/harissa-sandbox/actions/workflows/ci.yml)
 [![Coveralls](https://img.shields.io/coverallsCoverage/github/ulysseherbach/harissa-sandbox)](https://coveralls.io/github/ulysseherbach/harissa-sandbox?branch=main)
-[![GitHub Pages status](https://img.shields.io/github/actions/workflow/status/harissa-framework/harissa/github-pages.yml?label=documentation)](https://harissa-framework.github.io/harissa/)
+[![GitHub Pages status](https://img.shields.io/github/actions/workflow/status/ulysseherbach/harissa-sandbox/github-pages.yml?label=documentation)](https://ulysseherbach.github.io/harissa-sandbox/latest/)
 
 
 Harissa is a Python package for both simulation and inference of gene regulatory networks from single-cell data. Its name comes from ‘HARtree approximation for Inference along with a Stochastic Simulation Algorithm.’
