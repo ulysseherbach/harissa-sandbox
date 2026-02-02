@@ -1,9 +1,13 @@
-name: Publish harissa 🌶 to TestPyPI
+# Publish as a Python Package to TestPyPI
+name: Publish to TestPyPI
 
 on:
-  push:
-    branches: 
-      - main
+  # push:
+  #   branches:
+  #     - main
+
+  # Run manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   deploy:

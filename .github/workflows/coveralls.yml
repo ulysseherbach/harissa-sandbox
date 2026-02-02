@@ -1,9 +1,13 @@
-name: Publish coverage to Coveralls
+# Publish coverage to Coveralls
+name: Publish coverage
 
 on:
-  push:
-    branches: 
-      - main
+  # push:
+  #   branches:
+  #     - main
+
+  # Run manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   deploy:
